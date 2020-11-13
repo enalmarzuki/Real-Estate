@@ -1,0 +1,73 @@
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  .header-container {
+    .btn-home {
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      margin-right: 50px;
+    }
+
+    .btn-how,
+    .btn-feature,
+    .btn-about {
+      margin-left: 43px;
+      color: white !important;
+      font-weight: bold;
+      &:hover {
+        color: rgb(226, 226, 226) !important;
+      }
+    }
+
+    .search-wrapper {
+      .btn-contact {
+        border-radius: 30px;
+        padding: 10px 35px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-toggle {
+    background-image: url("../../../assets/img/icons/hamburger.png");
+    background-size: cover;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .hamburger-toggle.x {
+    background-image: url("../../../assets/img/icons/hamburger-x.png");
+    background-size: cover;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .collapse.navbar-collapse {
+    transition: 0.5s all ease-in-out;
+    .navbar-nav {
+      background: white;
+
+      .nav-link {
+        margin-left: 0 !important;
+        text-align: center;
+      }
+    }
+  }
+
+  .search-wrapper {
+    // margin-right: auto !important;
+    display: flex;
+    justify-content: center;
+  }
+}

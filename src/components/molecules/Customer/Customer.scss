@@ -1,0 +1,23 @@
+// Tablet
+@media screen and (max-width: 768px) {
+  .row-card-customer {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+
+    padding-bottom: 5em;
+    .col-card {
+      margin-top: 1em;
+      .card {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// Table
+@media screen and (max-width: 768px) {
+}
+
+// Mobile
+@media screen and (max-width: 425px) {
+}

@@ -1,0 +1,81 @@
+.about-container {
+  min-height: 80vh;
+  .row-about-title {
+    color: black;
+    margin-top: 15em;
+    margin-bottom: 1em;
+
+    .title-section {
+      text-align: center;
+    }
+  }
+
+  .row-desc {
+    margin-bottom: 5em;
+    .desc-section {
+      text-align: center;
+    }
+  }
+
+  .row-about-content {
+    .col-img {
+      background-image: url("../../../assets/img/image/dot-blue.png"),
+        url("../../../assets/img/image/dot-blue.png");
+      background-position-x: left, right;
+      background-position-y: bottom, top;
+      background-repeat: no-repeat;
+      .img-wrapper {
+        overflow: hidden;
+        border-radius: 80px;
+        filter: drop-shadow(-40px 40px 0px rgba(3, 78, 255, 0.1));
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .about-desc {
+      font-weight: 500;
+      color: rgb(156, 156, 156);
+
+      .about-button-action {
+        border-radius: 30px;
+        padding: 10px 35px;
+      }
+    }
+  }
+}
+
+// Tablet
+@media screen and (max-width: 768px) {
+  .row-about-title {
+    margin-top: 5em !important;
+    margin-bottom: 1em;
+  }
+
+  .row-desc {
+    margin-bottom: 3em;
+  }
+
+  .row-about-content {
+    background-position-x: left, 280px !important;
+    background-position-y: 350px, 120px !important;
+
+    .col-img {
+      margin-bottom: 3em;
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 425px) {
+  .row-about-content {
+    .col-img {
+      background-image: none !important;
+    }
+    .about-desc {
+      margin-left: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.home-row {
+  min-height: 100vh;
+  margin-bottom: 100px;
+
+  .home-title {
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+
+  .home-desc {
+    margin-bottom: 30px;
+  }
+
+  .home-button-action {
+    border-radius: 30px;
+    padding: 10px 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-row {
+    margin-bottom: 0px;
+  }
+}

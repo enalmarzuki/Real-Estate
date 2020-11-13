@@ -1,0 +1,61 @@
+.card-container {
+  // overflow: hidden;
+  position: relative;
+  height: 30em;
+  margin-bottom: 10em;
+
+  &:hover {
+    .btn-prev {
+      visibility: visible;
+      left: -6%;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .btn-next {
+      visibility: visible;
+      right: -6%;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .btn-prev {
+    visibility: hidden;
+    position: absolute;
+    top: 30%;
+    left: -30%;
+    z-index: 1;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .btn-next {
+    visibility: hidden;
+    position: absolute;
+    top: 30%;
+    right: -30%;
+    z-index: 1;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .card-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .card-wrapper {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
+    // overflow: auto;
+    scroll-behavior: smooth;
+  }
+}

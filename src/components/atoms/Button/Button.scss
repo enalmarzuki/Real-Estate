@@ -1,0 +1,10 @@
+// button:hover {
+//   color: red !important;
+// }
+
+a.nav-link {
+  color: white;
+  &:hover {
+    color: rgb(153, 153, 153);
+  }
+}

@@ -1,0 +1,53 @@
+footer {
+  padding-top: 50px;
+  background-color: #004dff;
+  color: white;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 80%;
+    z-index: -1;
+    background-image: url("../../../assets/img/image/footer.svg");
+    background-repeat: no-repeat;
+    background-position-x: 0;
+  }
+  .footer-title {
+    font-size: 18px;
+  }
+
+  .brand-tagline {
+    color: white;
+    font-weight: 300;
+    margin-top: 8px;
+  }
+
+  hr {
+    width: 80%;
+    background: white;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+    background-color: transparent;
+    a,
+    span {
+      color: white;
+      font-weight: 300;
+    }
+    a {
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: white;
+  }
+}
