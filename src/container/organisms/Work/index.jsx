@@ -22,7 +22,7 @@ export default function index() {
             isBigWithIcon
             img={Search}
             title="Fine Home"
-            desc="Choose your meals form our diverse weekly menu. Find gluten or dairy free, low carb & veggle options."
+            desc="Choose your dream home from our diverse list. Find the option that suits your dreams and make sure it is your best choice."
           />
         </div>
 
@@ -31,7 +31,7 @@ export default function index() {
             isBigWithIcon
             img={Meeting}
             title="Meet Roommates"
-            desc="Our team of chefs do the prep work no more chopping, measuring, or sink full of dishes !"
+            desc="Our team is no longer doing preparatory work such as cleaning because this residence is always well cared for."
           />
         </div>
 
@@ -40,7 +40,7 @@ export default function index() {
             isBigWithIcon
             img={Official}
             title="Make It Official"
-            desc="Yout freshly prepped 15-min dinner kits arrive on your doorstep in a refrigerated box!"
+            desc="Make sure you buy in our official team to prevent something unwanted from happening."
           />
         </div>
       </div>

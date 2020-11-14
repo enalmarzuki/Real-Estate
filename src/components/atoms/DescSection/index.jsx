@@ -20,8 +20,8 @@ export default function DescSection(props) {
         <div className="row">
           <div className="col-md-5">
             <p className="text-secondary">
-              It's through mistakes that you actually can grow you get rid of
-              everything that is not essetial to makihave to get bad
+              It is through those mistakes that you can really grow, you get rid
+              of everything that is not important to be bad
             </p>
           </div>
         </div>

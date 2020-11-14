@@ -13,7 +13,7 @@ export default function index(props) {
       </div>
 
       <DescSection
-        desc="A New Way Of Working For Many Of Professionals."
+        desc="A New Way To Make It Easier For You To Have Your Dream Home."
         isCenter
       />
 

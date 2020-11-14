@@ -29,7 +29,7 @@ export default function index() {
     <div>
       <div className="row">
         <div className="col d-flex justify-content-end align-items-center find-more">
-          <p className="mr-1 mb-0">Find More Project</p>
+          <p className="mr-1 mb-0">Find More Properties</p>
           <span>
             <img src={Arrow} alt="icon-arrow.png" />
           </span>

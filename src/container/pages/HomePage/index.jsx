@@ -10,7 +10,7 @@ import Question from "../../../components/molecules/Question";
 import Footer from "../../../components/molecules/Footer";
 
 // Asset
-import Homepage from "../../../assets/img/image/home-page.svg";
+import Homepage from "../../../assets/img/image/home-page.png";
 import imgAbout from "../../../assets/img/image/About.jpg";
 
 // Style

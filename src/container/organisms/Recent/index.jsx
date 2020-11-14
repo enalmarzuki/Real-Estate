@@ -10,7 +10,7 @@ export default function index() {
       <div className="row row-recent-title">
         <TitleSection title="Recent" />
       </div>
-      <DescSection desc="Recently Added Properties" />
+      <DescSection desc="The New Property We Created" />
       <Recent />
     </div>
   );

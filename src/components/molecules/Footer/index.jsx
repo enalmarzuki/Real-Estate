@@ -38,7 +38,7 @@ export default function Footer() {
                 </Button>
               </li>
               <li className="list-group-item">
-                <p className="font-weight-bold mb-0">UI/UX Designer</p>
+                <p className="font-weight-bold mb-0">Reference UI/UX By</p>
                 <Button
                   type="link"
                   href="https://www.behance.net/Shakibali"
@@ -54,7 +54,7 @@ export default function Footer() {
 
         <div className="row">
           <div className="col-md-12 text-center copyrights">
-            Copyright • 2020 All rights reserved • Real Estate
+            Copyright • 2020 All rights reserved • Marzuki . R
           </div>
         </div>
       </div>

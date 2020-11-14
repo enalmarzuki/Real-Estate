@@ -9,8 +9,8 @@ export default function index() {
     <div className="container question-container ">
       <div className="row justify-content-center">
         <div className="col-md-6 text-center">
-          <h2 className="font-weight-bold mb-0">Have Question in mind ?</h2>
-          <h2 className="font-weight-bold">Let us help you</h2>
+          <h2 className="font-weight-bold mb-0">Do You Have Any Questions?</h2>
+          <h2 className="font-weight-bold">Let our team help you</h2>
         </div>
       </div>
       <div className="row justify-content-center mt-5">

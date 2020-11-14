@@ -7,12 +7,12 @@ export default function index() {
   return (
     <div className="row align-items-center home-row">
       <div className="col-md-12 col-lg-6">
-        <h1 className="home-title">Real Estate advice for real locals.</h1>
+        <h1 className="home-title">Real Estate advice for your future.</h1>
         <p className="home-desc">
-          In expecting display, thought. Rationally and at it's of
-          <br />
-          headline proper then met harmonics. Sign the had no
-          <br /> made reached are desk mars might to first.
+          Real estate is land along with any permanent improvements attached to
+          land, whether natural or man-made - including water, trees, minerals,
+          buildings, houses, fences, and bridges. Real estate is a form of
+          property.
         </p>
 
         <Button

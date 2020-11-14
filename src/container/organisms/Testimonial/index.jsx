@@ -17,13 +17,13 @@ export default function index() {
         <TitleSection title="Testimonial" />
       </div>
 
-      <DescSection desc="What They Are Saying" isCenter />
+      <DescSection desc="What They Say About Us" isCenter />
 
       <div className="row justify-content-center mt-3">
         <div className="col-md-5">
           <p className="text-center font-weight-bold text-secondary">
-            It's through mistakes that you actually can grow you get rid of
-            everything that is not essential to makihave to get bad.
+            Through us you can get your dream home easily by choosing,
+            negotiating, trading and your dream home is ready to live in.
           </p>
         </div>
       </div>
@@ -33,9 +33,9 @@ export default function index() {
           <Card
             isTestimonial
             img={Testimonial}
-            title="They are engaged communicators and dedicated problem solvers regardless of time constraints. the team manage project them."
-            name="Shakib"
-            job="UI/UX Designer"
+            title="The people in this company are very friendly, the waiter is very kind, the price is very suitable for the house I get."
+            name="Marzuki . R"
+            job="Frontend Web Developer"
           />
         </div>
       </div>
