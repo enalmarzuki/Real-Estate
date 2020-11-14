@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Header from "../../../components/molecules/Header";
 import TaglineHero from "../../../components/molecules/TaglineHero";
 import Customer from "../../../components/molecules/Customer";
 import { Fade, Slide } from "react-awesome-reveal";
@@ -17,7 +16,6 @@ export default class index extends Component {
             className="background-home"
           />
         </Fade>
-        <Header />
         <div className="container home-container ">
           <Fade delay={300}>
             <TaglineHero />

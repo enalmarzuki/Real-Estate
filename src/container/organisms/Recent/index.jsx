@@ -6,9 +6,9 @@ import DescSection from "../../../components/atoms/DescSection";
 import TitleSection from "../../../components/atoms/TitleSection";
 import Recent from "../../../components/molecules/MolRecent";
 
-export default function index() {
+export default function index(props) {
   return (
-    <div className="container recent-container">
+    <div className="container recent-container" ref={props.scrollFeatures}>
       <Fade delay={300}>
         <div className="row row-recent-title">
           <TitleSection title="Recent" />

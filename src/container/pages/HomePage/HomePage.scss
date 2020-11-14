@@ -1,6 +1,7 @@
 .landing-page {
   overflow: hidden;
   position: relative;
+  scroll-behavior: smooth;
 
   .home-page {
     background-image: url("../../../assets/img/image/dot.png"),

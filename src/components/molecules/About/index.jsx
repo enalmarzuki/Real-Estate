@@ -9,7 +9,7 @@ import "./About.scss";
 
 export default function index(props) {
   return (
-    <div className="container about-container">
+    <div className="container about-container" ref={props.scrollAbout}>
       <Fade>
         <div className="row row-about-title">
           <TitleSection title="About Us" />

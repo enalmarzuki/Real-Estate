@@ -3,7 +3,28 @@ import Button from "../../atoms/Button";
 
 import "./Header.scss";
 
-export default function index() {
+export default function index(props) {
+  function refWork() {
+    window.scrollTo({
+      top: props.work.current.offsetTop - 30,
+      behavior: "smooth",
+    });
+  }
+
+  function refAbout() {
+    window.scrollTo({
+      top: props.scrollAbout.current.offsetTop - 30,
+      behavior: "smooth",
+    });
+  }
+
+  function refFeatures() {
+    window.scrollTo({
+      top: props.scrollFeatures.current.offsetTop - 30,
+      behavior: "smooth",
+    });
+  }
+
   const toggle = (e) => {
     const hamburger = document.querySelector("div.hamburger-toggle");
     hamburger.classList.toggle("x");
@@ -21,13 +42,29 @@ export default function index() {
         <div className="hamburger-toggle" onClick={toggle}></div>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Button type="link" className="nav-link active btn-how" href="#">
+            <Button
+              type="link"
+              className="nav-link active btn-how"
+              href="#"
+              onClick={refWork}
+            >
               How It Works
             </Button>
-            <Button type="link" className="nav-link btn-feature" href="#">
+            <Button
+              type="link"
+              className="nav-link active btn-how"
+              href="#"
+              onClick={refFeatures}
+            >
               Features
             </Button>
-            <Button type="link" className="nav-link btn-about" href="#">
+            <Button
+              type="link"
+              className="nav-link btn-about"
+              href="#"
+              id="about"
+              onClick={refAbout}
+            >
               About
             </Button>
           </div>

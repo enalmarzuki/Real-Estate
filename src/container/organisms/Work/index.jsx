@@ -10,9 +10,9 @@ import Search from "../../../assets/img/icons/search.png";
 import Meeting from "../../../assets/img/icons/meeting.png";
 import Official from "../../../assets/img/icons/official.png";
 
-export default function index() {
+export default function index(props) {
   return (
-    <div className="container work-container">
+    <div className="container work-container" ref={props.work}>
       <Fade delay={300}>
         <div className="row row-recent-title">
           <TitleSection title="Work" />
