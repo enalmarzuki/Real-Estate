@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../../atoms/Button";
-import { Fade } from "react-awesome-reveal";
 
 import "./Header.scss";
 
