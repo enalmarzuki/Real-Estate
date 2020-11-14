@@ -9,11 +9,7 @@ export default function index() {
     hamburger.classList.toggle("x");
 
     const list = document.querySelector(".collapse.navbar-collapse");
-    console.log(list.style.display);
-    if (list.style.display === "" || list.style.display === "none") {
-      return (list.style.display = "block");
-    }
-    return (list.style.display = "none");
+    list.classList.toggle("slide");
   };
 
   return (
